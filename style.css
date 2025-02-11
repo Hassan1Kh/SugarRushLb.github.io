@@ -1,0 +1,176 @@
+
+* {
+    margin: 0;
+padding: 0;
+	transition:0.8s ease;
+    box-sizing: border-box;
+	scroll-behavior:smooth;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+
+}
+
+select,
+option,
+button {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+
+/* Header styles with parallax effect */
+.parallax {
+    background-image: url('resources/im1.jpg'); /* Add your background image URL here */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+
+}
+
+.header-content {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+
+/*Navi options*/
+.navi
+{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 3em;
+
+}
+.navi a
+{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 2em;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 3em;
+}
+.navi a:hover
+{
+    color: #ff6b6b;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+	margin:10px;
+}
+
+.cta-button:hover {
+    background-color: #ff4444;
+}
+
+
+
+
+
+
+
+#about ,h2 {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+ h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+#about p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+#contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #ff6b6b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #ff4444;
+}
+
+
+
+
+
+
+
+/* Add styles for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+/* Add styles for the navbar */
+#data1{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
